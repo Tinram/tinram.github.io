@@ -8,19 +8,28 @@
 
 		<title>Tinram IO</title>
 
-		<style type="text/css">
+		<style>
+
 			html * {margin:0; padding:0;}
 			body {font:0.9em Sans,FreeSans,verdana,sans-serif;}
+
 			a {display:block; text-decoration:none;}
 			a, a:visited {color:#000;}
 			a:focus {outline:none;}
-			h1 {margin:60px 0 40px 80px; font-size:1.7em;}
-			div#menucont {margin:0 0 0 80px; width:90px; border:4px double #999; border-radius:6px; padding:10px;}
-			div#menucont a {padding:5px; font-weight:bold;}
-			div#menucont a:hover {background:#000; color:#fff; border-radius:6px;}
-			p#source {margin:60px 0 0 80px; font-size:10px; color:#999;}
+
+			h1 {margin:60px 0 20px 80px; font-size:1.7em;}
+			h2 {font-size:1.1em; margin:30px 0 16px 0; color:#39f;}
+
+			div.menucont {width:auto; margin:0 0 0 80px; float:left;}
+			div.menubox {margin:0 0 0 0; width:auto; border:4px double #999; border-radius:6px; padding:10px;}
+			div.menubox a {padding:5px; font-weight:bold;}
+			div.menubox a:hover {background:#000; color:#fff; border-radius:6px;}
+			div#qutils {width:86px;}
+
+			p#source {margin:25px 0 20px 0; font-size:9px; color:#999;}
 			p#source a {margin:3px 0 0 12px; color:#999;}
 			p#source a:hover {color:#000;}
+
 		</style>
 
 	</head>
@@ -29,20 +38,52 @@
 
 		<h1><a href="https://github.com/Tinram/">Tinram</a></h1>
 
-		<div id="menucont">
-			<a href="password_generator.html">Passgen</a>
-			<a href="base64_converter.html">Base64</a>
-			<a href="chmod.html">Chmod</a>
-			<a href="entities.html">Entities</a>
-			<a href="unicode_dump.html">Unicode</a>
-			<a href="mixem.html">Mixem</a>
+		<div class="menucont">
+			<h2>Quick Utils</h2>
+			<div class="menubox" id="qutils">
+				<a href="password_generator.html">Passgen</a>
+				<a href="base64_converter.html">Base64</a>
+				<a href="chmod.html">Chmod</a>
+				<a href="entities.html">Entities</a>
+				<a href="unicode_dump.html">Unicode</a>
+				<a href="mixem.html">Mixem</a>
+			</div>
+
+			<p id="source">
+				sources:
+				<a href="https://github.com/Tinram/Utilities">Utilities</a>
+				<a href="https://github.com/Tinram/Mixem">Mixem</a>
+			</p>
 		</div>
 
-		<p id="source">
-			source repos:
-			<a href="https://github.com/Tinram/Utilities">Utilities</a>
-			<a href="https://github.com/Tinram/Mixem">Mixem</a>
-		</p>
+		<div class="menucont">
+			<h2>MySQL</h2>
+			<div class="menubox">
+				<a href="https://github.com/Tinram/Database-Filler">Database Filler</a>
+				<a href="https://github.com/Tinram/MySQL">MySQL Utils</a>
+				<a href="https://github.com/Tinram/MySQL-PDO">PDO Helper</a>
+				<a href="https://github.com/Tinram/MySQL-Brute">Bruteforcer</a>
+			</div>
+		</div>
+
+		<div class="menucont">
+			<h2>Encryption</h2>
+			<div class="menubox">
+				<a href="https://github.com/Tinram/cchat">Crypt Chat</a>
+				<a href="https://github.com/Tinram/OpenSSL-File-Encrypt">File Encrypt</a>
+				<a href="https://github.com/Tinram/GPG-Gui">GPG GUI</a>
+				<a href="https://github.com/Tinram/GPGit">GPGit</a>
+			</div>
+		</div>
+
+		<div class="menucont">
+			<h2>Linux</h2>
+			<div class="menubox">
+				<a href="https://github.com/Tinram/Linux-Utilities">Utilities</a>
+				<a href="https://github.com/Tinram/Linux-Snippets">Snippets</a>
+				<a href="https://github.com/Tinram/Linux-Scripts">Scripts</a>
+			</div>
+		</div>
 
 	</body>
 
