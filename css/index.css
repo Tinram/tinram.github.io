@@ -98,7 +98,7 @@ a {
 }
 
 a:hover,
-a:focus {}
+a:focus {outline:none;}
 
 footer a {
 	color: #f2f2f2;
