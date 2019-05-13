@@ -316,7 +316,7 @@ td a:hover {
 #main_content {
 	padding-top: 60px;
 	min-height: 355px;
-	min-width: 680px;
+	/*min-width: 680px;*/
 }
 
 #footer_wrap {
@@ -326,6 +326,31 @@ td a:hover {
 @media screen and (max-width: 992px) {
 	img {
 		max-width: 100%
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 14px;
+		background: none;
+	}
+	#main_content {
+		padding-top: 20px;
+	}
+	#main_content_wrap {
+		background: none;
+	}
+	#main_content_wrap.outer {
+		border: 0;
+	}
+	footer.inner {
+		display: none;
+	}
+	#downloads {
+		display: none;
+	}
+	.inner {
+		width: 600px;
 	}
 }
 
