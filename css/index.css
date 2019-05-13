@@ -1,6 +1,6 @@
 
 /**
-	* SLightly modified version of Slate Theme for GitHub Pages.
+	* Slightly modified version of Slate Theme for GitHub Pages.
 	* https://github.com/pages-themes/slate
 	* With thanks to the contributors: https://github.com/pages-themes/slate/graphs/contributors
 */
@@ -332,6 +332,20 @@ td a:hover {
 @media screen and (max-width: 480px) {
 	body {
 		font-size: 14px;
+		background: none;
+	}
+	#main_content {
+		padding-top: 20px;
+		min-width: 420px;
+	}
+	#main_content_wrap {
+		background: none;
+	}
+	#main_content_wrap.outer {
+		border: 0;
+	}
+	footer.inner {
+		display: none;
 	}
 	#downloads {
 		display: none;
@@ -370,6 +384,20 @@ td a:hover {
 @media screen and (max-width: 320px) {
 	body {
 		font-size: 14px;
+		background: none;
+	}
+	#main_content {
+		padding-top: 20px;
+		min-width: 300px;
+	}
+	#main_content_wrap {
+		background: none;
+	}
+	#main_content_wrap.outer {
+		border: 0;
+	}
+	footer.inner {
+		display: none;
 	}
 	#downloads {
 		display: none;
